@@ -40,7 +40,7 @@ $(document).ready(function () {
     $(".location-text").mouseover(function(){
         $('.tip').tipso({
             width: 260,
-            position: 'top',
+            position: 'bottom',
             background: 'rgba(0,0,0,0.1)',
             color: '#FFF'
         });
@@ -53,7 +53,7 @@ $(document).ready(function () {
             $('.go').css('opacity', 1);
 
             window.setTimeout(function () {
-                window.location.href = 'http://blog.domeyi.com';
+                window.location.href = 'https://blog.brianhe.me';
             }, 1000);
         }
     });
